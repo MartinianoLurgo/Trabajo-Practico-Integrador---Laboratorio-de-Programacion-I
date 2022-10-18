@@ -24,7 +24,8 @@ para poder darle continuidad con algún otro programador.
 ● Mollina Mansilla Ignacio
 
   
-● Piñan Federico
+● Piñan Federico 
+https://github.com/federicopinan
 
 
 ● Porello Nicolas
