@@ -18,10 +18,14 @@ para poder darle continuidad con algún otro programador.
 
 ## Integrantes: :heavy_check_mark:
 
-● Lurgo Johnston Martiniano 
+● Lurgo Johnston Martiniano
   https://github.com/MartinianoLurgo
+  
 ● Mollina Mansilla Ignacio
+
   
 ● Piñan Federico
-  
+
+
 ● Porello Nicolas
+
