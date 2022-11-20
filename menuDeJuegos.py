@@ -3,18 +3,19 @@ import os
 selecionarJuego = 0
 while selecionarJuego != 5:
     print("▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲")
-    print("◀ Bienvenido a Play 4 in 1🕹️")
+    print("◀ BIENVENIDO A PLAY 4 IN 1🕹️")
     print("▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼")
-    print("1 ▷Adivina el número 🚀")
-    print("2 ▷Tablas de multiplicación 🚀")
-    print("3 ▷Piedra, paperl o tijera 🚀")
-    print("4 ▷PELEA POKEMON 🚀")
-    print("5 ▷Salir del programa ❌")
-    selecionarJuego = int(input("Ingresa una opción\n..."))
+    print("1--> ADIVINA EL NÚMERO  🚀")
+    print("2--> TABLAS DE MULTIPLICACIÓN 🚀")
+    print("3--> PIEDRA, PAPEL O TIJERA 🚀")
+    print("4--> PELEA POKEMON 🚀")
+    print("5--> SALIR DEL PROGRAMA ❌")
+    selecionarJuego = int(input("Ingresa una opción\n-->"))
     os.system("cls")
 
     #ENTRADA PARA EL PRIMER JUEGO
     if selecionarJuego == 1:
+        os.system("python adivinaElNumero.py")
         os.system("cls")    
     #ENTRADA PARA EL SEGUNDO JUEGO
     if selecionarJuego == 2:

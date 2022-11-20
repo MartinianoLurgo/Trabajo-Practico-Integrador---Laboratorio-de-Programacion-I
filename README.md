@@ -16,10 +16,10 @@ para poder darle continuidad con algún otro programador.
 
 
 
-## Integrantes: :heavy_check_mark:
+## Integrantes:
 
 ● Lurgo Johnston Martiniano
-  https://github.com/MartinianoLurgo
+https://github.com/MartinianoLurgo
   
 ● Mollina Mansilla Ignacio
 https://github.com/NachoMansilla2103
@@ -27,6 +27,35 @@ https://github.com/NachoMansilla2103
 ● Piñan Federico 
 https://github.com/federicopinan
 
-
 ● Porello Nicolas
 https://github.com/NicolasPorello
+
+##  Presentación de enunciados:
+### 1° Juego "ADIVINAR EL NÚMERO"
+En este juego, el usuario deberá introducir un valor máximo para el comienzo del mismo. Por ejemplo:
+el usuario introduce el número 10 el número que se debe adivinar esta correspondio entre 0 y 10. luego, el usuario deberá ingresar por teclado u número para intentar adivinar el número, el mismo posee infinitos intentos para hallar el número. Si el usuario digita un número, y si es el incorrecto el programa ayuda al usuario y la cantidad de intentos irá incrementado de a 1, avisando que el número a encontrar es mayor o menor dependiendo lo digitado. Cuando el jugador halla adivinado el número, el programa muestra un cartel felicitando al usuario, además muestra el número de intentos para el hallazgo. Por último, el programa pregunta si desea seguir jugando o no, si la respuestas es sí, el programa se ejecuta nuevamente por el otro lado si la respuesta es no, el usuario se dirigirá al menu de opciones.
+
+### 2° Juego "TABLAS DE MULTIPLICACIÓN"
+
+## ANALISIS Y DISEÑO:
+### 1° JUEGO "ADIVINAR EL NÚMERO"
+*Datos de entrada:*
+- generarMaximo: tipo de dato númerico(enetero),para determinar un número máximo
+- adivinar: tipo de dato númerico(enetero), para adivinar el número máximo(Puede repertise varias veces)
+- nuevoJuego: tipo de dato caracter, para determinar si el usuario desea seguir jugando 
+*Datos de salidad:*
+- generarNumero: tipo de dato númerico(enetero), genera un valor aleatorio de 0 al númeor máximo
+- intentos: tipo de dato númerico(enetero), muestra por pantalla la cantidad de intentos
+*Proceso:*
+El programa pide números enteros, el usuario digita y se corrobora si el mismo es un dato
+númerico entero o no, luego realiza la misma función con la variable adivinar para continuar
+con el programa, por último cuando se pide un dato de cadena, si la variable nuevoJuego es igual
+a un dato de caracter y es igual a "si" o "no" el programa continua, de no ser así se realiza una comprobación y se pregunta de nuevo si el tipo de dato no es caracter o no corresponde al condicional.
+## DOCUMENTACIÓN DE REFERENCIA:
+### 1° JUEGO "ADIVINAR EL NÚMERO"
+- Unidad 2°: Estructuras selectivas
+- Unidad 3°: Estructuras Repetitivas
+- Uso de funciones
+- Python
+- Importación de librería **OS**
+- Importación de librería **RANDOM**
