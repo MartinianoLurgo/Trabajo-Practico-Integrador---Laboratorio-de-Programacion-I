@@ -5,9 +5,10 @@ generarMaximo = 0
 generarNumero = 0
 adivinar = 0
 nuevoJuego = 0
+intentos = 0
 #EXPLICACIÖN DEL JUEGO
 print("🚀BIENVENIDO AL JUEGO ADIVINA EL NÚMERO🚀")
-print("##############################")
+print("")
 print("1° Primero, digite un valor máximo para generar un número para avinar correspondido entre (0 y el maximo)")
 print("2° Segundo, empiece a adivinar el número ATENCIÓN! Tiene intentos ilimitados")
 print("3° Tercero, el juego te ira dando pistas para hallar el número")
@@ -17,25 +18,40 @@ print("")
 def advinarNumeroJuego():
     input("Presiona enter para comenzar el juego...✔️")
     os.system("cls")
-    generarMaximo = int(input("Digite un valor máximo distinto de 0\n-->"))
-    while generarMaximo == 0:
-        generarMaximo = int(input("ERROR!! Debe digitar un número distinto de 0\n-->"))
-    generarNumero = random.randint(1,generarMaximo) 
-    adivinar = int(input("Digite su primera adivinanza\n-->"))
+    # GENERA EL NÚMERO ALEATORIO
+    generarMaximo = input("Digite un valor máximo(ENTERO Y POSITIVO)\n-->")
+    # COMPROBACIÓN DE NÚMERO ENTERO
+    while not generarMaximo.isdigit(): 
+        generarMaximo = input("Debe ser un número entero y positivo\n-->")
+    generarMaximo = int(generarMaximo)
+    generarNumero = random.randint(0,generarMaximo)
+    adivinar = input("Digite su 1° adivinanza\n-->")
+    # COMPROBACIÓN DE NÚMERO ENTERO
+    while not adivinar.isdigit():
+            adivinar = input("Debe ser un número entero y positivo\n-->")
+    adivinar=int(adivinar)
     intentos = 1
     while adivinar != generarNumero:
         intentos +=1
         if adivinar < generarNumero:
-            adivinar = int(input("El número es mayor!! Intenta de nuevo\n-->"))
+            adivinar = input("El número es mayor!! Intenta de nuevo\n-->")
+            # COMPROBACIÓN DE NÚMERO ENTERO
+            while not adivinar.isdigit():
+                adivinar = input("Debe ser un número entero y positivo\n-->")
+            adivinar=int(adivinar)
         else:
-            adivinar = int(input("El número es menor!! Intenta de nuevo\n-->"))
+            adivinar = input("El número es menor!! Intenta de nuevo\n-->")
+            # COMPROBACIÓN DE NÚMERO ENTERO
+            while not adivinar.isdigit():
+                adivinar = input("Debe ser un número entero y positivo\n-->")
+            adivinar=int(adivinar)
     os.system("cls")
     print(f"Felicitaciones🎉 Adivinaste el número {generarNumero} en {intentos} intentos👏")
     #PREGUNTA SI EL USUARIO DESEA SEGUIR JUGANDO O NO
     nuevoJuego = str(input("Quiere continuar jugando😀\n(SI O NO) "))
     while nuevoJuego.lower() != "si" and nuevoJuego.lower() != "no": 
         nuevoJuego = str(input("Quiere continuar jugando😀\n(SI O NO) "))
-    if nuevoJuego == "si":
+    if nuevoJuego.lower() == "si":
         advinarNumeroJuego()
     else:
         input("Presiona enter para regresar al menú...✔️")
