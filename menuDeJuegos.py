@@ -23,8 +23,8 @@ while selecionarJuego != 5:
         os.system("cls")
     #ENTRDADA PARA EL TERCER JUEGO
     if selecionarJuego == 3:
-        os.system("python piedra,papel o tijera.py")
-        os.system("cls")
+        os.system("python piedraPapelTijera.py")
+        os.system("cls") 
     #ENTRADA PARA EL CUARTO JUEGO
     if selecionarJuego == 4:
         os.system("python ")

@@ -36,7 +36,14 @@ ___
 En este juego, el usuario deberá introducir un valor máximo para el comienzo del mismo. Por ejemplo:
 el usuario introduce el número 10 el número que se debe adivinar esta correspondio entre 0 y 10. luego, el usuario deberá ingresar por teclado u número para intentar adivinar el número, el mismo posee infinitos intentos para hallar el número. Si el usuario digita un número, y si es el incorrecto el programa ayuda al usuario y la cantidad de intentos irá incrementado de a 1, avisando que el número a encontrar es mayor o menor dependiendo lo digitado. Cuando el jugador halla adivinado el número, el programa muestra un cartel felicitando al usuario, además muestra el número de intentos para el hallazgo. Por último, el programa pregunta si desea seguir jugando o no, si la respuestas es sí, el programa se ejecuta nuevamente por el otro lado si la respuesta es no, el usuario se dirigirá al menu de opciones.
 
-
+### 3°Juego "Piedra,Papel o Tijera"
+El usuario debera introducir un numero del 1 al 3 
+1 es piedra, que le ganara a tijera pero perdera contra papel
+2 es tijera, que le ganara a papel pero perdera con piedra
+3 es papel, que le ganara a piedra  pero perdera con tijera
+si la pc y el jugador eligen lo mismo empataran 
+cada vez que uno de los dos gane una ronda se le sumara un punto esto asi hasta que uno de los dos gane 3 veces 
+si empatan no se tomara la jugada y si eligen otro numero que no sea del 1 al 3 le saldra un cartel diciendo que debe elegir un numero del 1 al 3
 ## ANALISIS Y DISEÑO
 ___
 ### 1° JUEGO "ADIVINAR EL NÚMERO
@@ -45,7 +52,7 @@ ___
 - adivinar: tipo de dato númerico(entero), para adivinar el número máximo(Puede repertise varias veces)
 - nuevoJuego: tipo de dato caracter, para determinar si el usuario desea seguir jugando
 
-*Datos de entradas*
+*Datos de salida*
 - generarNumero: tipo de dato númerico(entero), genera un valor aleatorio de 0 al númeor máximo
 - intentos: tipo de dato númerico(entero), muestra por pantalla la cantidad de intentos
 
@@ -71,10 +78,23 @@ a un dato de caracter y es igual a "si" o "no" el programa continua, de no ser a
 
 El programa pide un numero que desea saber su tabla y luego pide otro para saber hasta que numero lo desea multiplicar, luego de eso el programa entra en un ciclo donde multiplica el numero por I que es el contador, hasta el 2do numero ingresado. luego el programa pregunta si desea seguir jugando mediante una confirmacion
 
+### 3° Juego "Piedra, Papel o Tijera"
+*Datos de entrada*
+jugador= tipo de dato númerico(entero), elige un numero
+letra= tipo de dato cadena(caracter),para comenzar el juego
+
+*Datos de salida*
+contadorJugador= tipo de dato númerico(entero),cuenta cuantas veces gano el jugador
+contadorPc= tipo de dato númerico(entero),cuenta cuantas veces gano la pc
+
+*Datos*
+pc= tipo de dato númerico(entero),elige un numero
+
 **Pseudocódigo**
 
 El Pseudocódigo de este juego, esta hecho en el programa Pseint, definiendo todas sus variables,
 explicando cada tipo de dato y con comentarios que ayudan a leer el código de una mejor manera, y con el mismo programa pudimos realizar un diagrama de flujo para una revisió gráfica del mismo Juego.
+
 ## DOCUMENTACIÓN DE REFERENCIA
 ___
 ### 1° JUEGO "ADIVINAR EL NÚMERO"
@@ -91,3 +111,11 @@ ___
 - Unidad 2°: Estructuras selectivas
 - Unidad 3°: Estructuras Repetitivas
 - Python
+
+### 3° JUEGO "PIEDRA,PAPEL o TIJERA"
+- Unidad 1°: Pensamiento Computacional, Pseudocodigo
+- Unidad 2°: Estructuras selectivas
+- Unidad 3°: Estructuras Repetitivas
+- Python
+- Uso de funciones
+- Importación de librería **OS**
