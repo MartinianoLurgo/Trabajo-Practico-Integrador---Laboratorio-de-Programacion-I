@@ -54,5 +54,6 @@ def advinarNumeroJuego():
     if nuevoJuego.lower() == "si":
         advinarNumeroJuego()
     else:
+        print("Gracias por jugar, hasta la proxima👋")
         input("Presiona enter para regresar al menú...✔️")
 advinarNumeroJuego()

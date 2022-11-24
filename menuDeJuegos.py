@@ -19,18 +19,21 @@ while selecionarJuego != 5:
         os.system("cls")    
     #ENTRADA PARA EL SEGUNDO JUEGO
     if selecionarJuego == 2:
+        os.system("python Tablamultiplicacion.py")
         os.system("cls")
     #ENTRDADA PARA EL TERCER JUEGO
     if selecionarJuego == 3:
+        os.system("python piedra,papel o tijera.py")
         os.system("cls")
     #ENTRADA PARA EL CUARTO JUEGO
     if selecionarJuego == 4:
+        os.system("python ")
         os.system("cls")
     
 #FINALIZACIÓN DEL PROGRAMA
 os.system("cls" )
 print("")
-print("###################################")    
-print("Finalizaste el programa!!")
-print("Gracias por jugar en Play 4 in 1 😜")
-print("###################################")
+print("🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀")    
+print("->Finalizaste el programa!! Hasta la proxima👋")
+print("->Gracias por jugar en Play 4 in 1 😜")
+print("🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀")    
