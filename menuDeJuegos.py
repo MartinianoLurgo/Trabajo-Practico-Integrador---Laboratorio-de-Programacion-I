@@ -8,7 +8,7 @@ while selecionarJuego != 5:
     print("1--> ADIVINA EL NÚMERO  🚀")
     print("2--> TABLAS DE MULTIPLICACIÓN 🚀")
     print("3--> PIEDRA, PAPEL O TIJERA 🚀")
-    print("4--> PELEA POKEMON 🚀")
+    print("4--> QUIZ 🚀")
     print("5--> SALIR DEL PROGRAMA ❌")
     selecionarJuego = int(input("Ingresa una opción\n-->"))
     os.system("cls")
