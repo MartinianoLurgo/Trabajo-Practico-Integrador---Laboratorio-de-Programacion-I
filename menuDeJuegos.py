@@ -12,22 +12,19 @@ while selecionarJuego != 5:
     print("5--> SALIR DEL PROGRAMA ❌")
     selecionarJuego = int(input("Ingresa una opción\n-->"))
     os.system("cls")
-
     #ENTRADA PARA EL PRIMER JUEGO
     if selecionarJuego == 1:
-        os.system("python adivinaElNumero.py")
+        os.system("python adivinarElNumero.py")
         os.system("cls")    
     #ENTRADA PARA EL SEGUNDO JUEGO
     if selecionarJuego == 2:
-        os.system("python Tablamultiplicacion.py")
+        os.system("python TablaDeMultiplicación.py")
         os.system("cls")
     #ENTRDADA PARA EL TERCER JUEGO
     if selecionarJuego == 3:
-        os.system("python piedraPapelTijera.py")
         os.system("cls") 
     #ENTRADA PARA EL CUARTO JUEGO
     if selecionarJuego == 4:
-        os.system("python ")
         os.system("cls")
     
 #FINALIZACIÓN DEL PROGRAMA
