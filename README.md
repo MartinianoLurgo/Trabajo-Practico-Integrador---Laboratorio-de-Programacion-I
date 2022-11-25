@@ -36,6 +36,12 @@ ___
 En este juego, el usuario deberá introducir un valor máximo para el comienzo del mismo. Por ejemplo:
 el usuario introduce el número 10 el número que se debe adivinar esta correspondio entre 0 y 10. luego, el usuario deberá ingresar por teclado u número para intentar adivinar el número, el mismo posee infinitos intentos para hallar el número. Si el usuario digita un número, y si es el incorrecto el programa ayuda al usuario y la cantidad de intentos irá incrementado de a 1, avisando que el número a encontrar es mayor o menor dependiendo lo digitado. Cuando el jugador halla adivinado el número, el programa muestra un cartel felicitando al usuario, además muestra el número de intentos para el hallazgo. Por último, el programa pregunta si desea seguir jugando o no, si la respuestas es sí, el programa se ejecuta nuevamente por el otro lado si la respuesta es no, el usuario se dirigirá al menu de opciones.
 
+### 2° Juego "Tabla de Multiplicación"
+En el siguiente programa el usuario debera ingresar un numero que desea saber su tabla de multiplicar
+y luego se le pedira ingresar otro numero, que es hasta que numero desea multipiplicar el numero anteriormente ingresado,
+luego de esto se mostrara por pantalla la tabla de multiplicar y ademas un vector generado con esos resultados,
+tambien prodra volver a realizar el juego cuantas veces quiera con diferentes numeros
+
 ### 3°Juego "Piedra,Papel o Tijera"
 El usuario debera introducir un numero del 1 al 3 
 1 es piedra, que le ganara a tijera pero perdera contra papel
