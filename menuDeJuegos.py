@@ -14,17 +14,19 @@ while selecionarJuego != 5:
     os.system("cls")
     #ENTRADA PARA EL PRIMER JUEGO
     if selecionarJuego == 1:
-        os.system("python adivinarElNumero.py")
+        os.system("python advinarElNumero.py")
         os.system("cls")    
     #ENTRADA PARA EL SEGUNDO JUEGO
     if selecionarJuego == 2:
-        os.system("python TablaDeMultiplicación.py")
+        os.system("python Tablamultiplicacion.py")
         os.system("cls")
     #ENTRDADA PARA EL TERCER JUEGO
     if selecionarJuego == 3:
+        os.system("python piedraPapelTijera.py")
         os.system("cls") 
     #ENTRADA PARA EL CUARTO JUEGO
     if selecionarJuego == 4:
+        os.system("python QUIZ.py")
         os.system("cls")
     
 #FINALIZACIÓN DEL PROGRAMA
