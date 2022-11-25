@@ -50,8 +50,17 @@ El usuario debera introducir un numero del 1 al 3
 si la pc y el jugador eligen lo mismo empataran 
 cada vez que uno de los dos gane una ronda se le sumara un punto esto asi hasta que uno de los dos gane 3 veces 
 si empatan no se tomara la jugada y si eligen otro numero que no sea del 1 al 3 le saldra un cartel diciendo que debe elegir un numero del 1 al 3
-## ANALISIS Y DISEÑO
+
+### 4º Juego "Preguntas matematicas"
+El usuario Debersa responder una serie de preguntas matematicas con la finalidad de dar un puntaje como salida
+dichas preguntas iran sumando puntaje para asi llegar a saber cuanto sabes de matematicas
+En este TEST por asi decirlo veremos preguntas de todos los niveles desde preguntas basicas 
+hasta preguntas de nivel univercitario.
+
 ___
+
+### ANALISIS Y DISEÑO
+
 ### 1° JUEGO "ADIVINAR EL NÚMERO
 *Datos de entrada*
 - generarMaximo: tipo de dato númerico(entero),para determinar un número máximo
@@ -101,8 +110,21 @@ pc= tipo de dato númerico(entero),elige un numero
 El Pseudocódigo de este juego, esta hecho en el programa Pseint, definiendo todas sus variables,
 explicando cada tipo de dato y con comentarios que ayudan a leer el código de una mejor manera, y con el mismo programa pudimos realizar un diagrama de flujo para una revisió gráfica del mismo Juego.
 
-## DOCUMENTACIÓN DE REFERENCIA
+### 4º Juego "Preguntas matematicas"
+*Datos de entrada*
+Respuestas del usuario (Caracter o valores numericos)
+ 
+*Proceso* 
+Mediante estucturas condicionales fui desarrollando 
+el cuestionario y con un cumulador fui contanto los puntos
+
+*Datos de salida*
+Puntuacion total del test(Valor numerico)
+
 ___
+
+## DOCUMENTACIÓN DE REFERENCIA
+
 ### 1° JUEGO "ADIVINAR EL NÚMERO"
 - Unidad 1°: Pensamiento Computacional, Pseudocodigo
 - Unidad 2°: Estructuras selectivas
@@ -125,3 +147,10 @@ ___
 - Python
 - Uso de funciones
 - Importación de librería **OS**
+
+### 4º JUEGO "PREGUNTAS MATEMATICAS"
+
+- Unidad 1°: Pensamiento Computacional, Pseudocodigo
+- Unidad 2°: Estructuras selectivas
+- Unidad 3°: Estructuras Repetitivas
+- Python
