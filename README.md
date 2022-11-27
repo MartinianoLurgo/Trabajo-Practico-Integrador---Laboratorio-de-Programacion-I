@@ -55,7 +55,7 @@ si empatan no se tomara la jugada y si eligen otro numero que no sea del 1 al 3 
 El usuario Debersa responder una serie de preguntas matematicas con la finalidad de dar un puntaje como salida
 dichas preguntas iran sumando puntaje para asi llegar a saber cuanto sabes de matematicas
 En este TEST por asi decirlo veremos preguntas de todos los niveles desde preguntas basicas 
-hasta preguntas de nivel univercitario.
+hasta preguntas de nivel universitario.
 
 ___
 
