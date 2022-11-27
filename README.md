@@ -73,10 +73,12 @@ ___
 
 *Proceso*
 
-El programa pide números enteros, el usuario digita y se corrobora si el mismo es un dato
-númerico entero o no, luego realiza la misma función con la variable adivinar para continuar
-con el programa, por último cuando se pide un dato de cadena, si la variable nuevoJuego es igual
-a un dato de caracter y es igual a "si" o "no" el programa continua, de no ser así se realiza una comprobación y se pregunta de nuevo si el tipo de dato no es caracter o no corresponde al condicional.
+1° El programa le pide al usuario que digite un número entero y positivo.
+2° Luego de comprobar que es entero y positivo, el programa genera un número aleatorio entre 0 y el número digitado.
+3° Comienza el juego, el usuario debera ingresar número para intentar adivinar el número generado.
+4° Si el jugador falla, se le sumara un acumulador de intentos y el programa dará una ayuda para intentar adivinarlo.
+5° Si el jugador adivina el número, se mostrara un cartel felicitando al jugador y la cantidad de intentos realizados.
+6° Por último, el programa pregunta si quiere seguir jugando o no.
 
 ### 2° Juego "TABLAS DE MULTIPLICACIÓN"
 

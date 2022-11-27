@@ -9,7 +9,7 @@ intentos = 0
 #EXPLICACIÖN DEL JUEGO
 print("🚀BIENVENIDO AL JUEGO ADIVINA EL NÚMERO🚀")
 print("")
-print("1° Primero, digite un valor máximo para generar un número para avinar correspondido entre (0 y el maximo)")
+print("1° Primero, digite un valor máximo para generar un número para adivinar correspondido entre (0 y el maximo)")
 print("2° Segundo, empiece a adivinar el número ATENCIÓN! Tiene intentos ilimitados")
 print("3° Tercero, el juego te ira dando pistas para hallar el número")
 print("Cuando adivines el número el juego finalizara")
@@ -54,6 +54,6 @@ def advinarNumeroJuego():
     if nuevoJuego.lower() == "si":
         advinarNumeroJuego()
     else:
-        print("Gracias por jugar, hasta la proxima👋")
+        print("Gracias por jugar, hasta la próxima👋")
         input("Presiona enter para regresar al menú...✔️")
 advinarNumeroJuego()
