@@ -71,10 +71,15 @@ ___
 *Proceso*
 
 1° El programa le pide al usuario que digite un número entero y positivo.
+
 2° Luego de comprobar que es entero y positivo, el programa genera un número aleatorio entre 0 y el número digitado.
+
 3° Comienza el juego, el usuario debera ingresar número para intentar adivinar el número generado.
+
 4° Si el jugador falla, se le sumara un acumulador de intentos y el programa dará una ayuda para intentar adivinarlo.
+
 5° Si el jugador adivina el número, se mostrara un cartel felicitando al jugador y la cantidad de intentos realizados.
+
 6° Por último, el programa pregunta si quiere seguir jugando o no.
 
 ### 2° Juego "TABLAS DE MULTIPLICACIÓN"
@@ -87,10 +92,16 @@ ___
 *Datos de Salida*
 -total: tipo de dato númerico(entero), muestra las multiplicaciones sucesivas
 -tabla: tipo de dato vector, vector generado por las multiplicaciones
-
 *Proceso*
+1° El programa pide al ususario ingresar un numero entero para saber la tabla de multiplicar
 
-El programa pide un numero que desea saber su tabla y luego pide otro para saber hasta que numero lo desea multiplicar, luego de eso el programa entra en un ciclo donde multiplica el numero por I que es el contador, hasta el 2do numero ingresado. luego el programa pregunta si desea seguir jugando mediante una confirmacion
+2° Luego pide otro numero entero para saber hasta que numero desea multiplicarlo
+
+3° luego ingresa a un ciclo for que multiplica el numero hasta el otro numero ingresado
+
+4° despues muestra el vector con los resultados y la tabla de multiplicar
+
+5° Luego le pregunta al usuario si desea seguir repitiendo el algoritmo hasta que el quiera salir
 
 ### 3° Juego "Piedra, Papel o Tijera"
 *Datos de entrada*
@@ -103,6 +114,17 @@ contadorPc= tipo de dato númerico(entero),cuenta cuantas veces gano la pc
 
 *Datos*
 pc= tipo de dato númerico(entero),elige un numero
+
+*Proceso*
+1° el programa le pide al usuario un numero del 1 al 3, para el 1 piedra para 2 tijera para 3 papel
+
+2°luego el programa dara un numero del 1 al 3 aleatorio y eso se comparara con el numero que escribiste anteriormente 
+
+3° el numero que el programa tira se comarara con el numero que escribio el jugador 
+
+4°luego dependiendo que pase se le ira sumando a una variable que esta si llega a 3 se termina el juego
+
+5° Luego el programa pregunta si el jugador quiere jugar una nueva partida
 
 **Pseudocódigo**
 
@@ -122,6 +144,15 @@ En este juego utilie una serie de funciones las cuales conforme se desarrolla la
 *Datos de salida*
 
 Desarollo de la trama
+*Proceso*
+
+1° el programa le pide al usuario que decida si ejecutar el juego o salir del programa de menu
+
+2° luego si este decide jugar , comienza el programa, con las primeras deciciones de la historia
+
+3° luego des desarrolo de la trama termina de dos manera o es un final de muerte o termina ganando el usuraio
+
+4° al final el programa le pide al usuario si quiere volver a jugar o salir del programa.
 
 *Pseudocodigo*
 
