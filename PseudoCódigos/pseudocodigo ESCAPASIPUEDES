@@ -1,0 +1,117 @@
+definir algoritmo
+
+funcionmenu()
+print('''
+ _______    _______    ______       __        _______       __
+|   ____|  /   ____\  |   ___|     /  \      |   _   |     /  \ 
+|  |____    \ \       |  |        /    \     |   |   |    /    \ 
+|   ____|     \ \     |  |       /  /\  \    |  _____|   /  /\  \ 
+|  |____    _____\ \  |  |___   /  /__\  \   |  |       /  /__\  \ 
+|_______|  \_______/  |______| /__________\  |__|      /__________\ 
+ ________    __
+/  ______\  |  |
+ \ \        |  |
+    \ \     |  |
+ ______\ \  |  |
+\________/  |__|
+ _______    __     __    _______   ______     _______   _______
+|   _   |  |  |   |  |  |   ____| |      \   |   ____| /  _____\ 
+|   |   |  |  |   |  |  |  |____  |   |   |  |  |____  \ \ 
+|  _____|  |  |   |  |  |   ____| |   |   |  |   ____|    \ \  
+|  |       |  |___|  |  |  |____  |   |   |  |  |____   _____\ \ 
+|__|       |_________|  |_______| |______/   |_______| \_______/
+''')
+
+escribir "1.jugar"
+escribir "2.salir"
+opcmenu <- escribir "Bienvenido. Elige una opcion:"
+
+	si opcmenu == "1" entonces:
+		funcionjuego()
+	si no opcmenu=="2":
+		escribir "Hasta Luego"
+		fin algoritmo
+	si no si
+		escribir("opcion no valida")
+		funcionmenu()
+
+
+funcionjuego()
+	escribir "Eres el Soldado Johnston y te despertaste en una
+      celda desconocida, tambien te das cuenta que al lado tuyo en una
+      celda contigua esta tu camarada el teniente segundo Rusel,
+      intentas divisar que se encuentra a tu alrededor,
+      vez una celda de barrotes de metal que te rodea y un solo baño"
+
+      escribir "1. mirar por la ventana"
+      escribir "2. Tratar de forzar la puerta para ver si se puede abrir"
+
+      opcion1 <- escribir "elige una opcion"
+      	si opcion == "1"
+      		funcionmirarventana()
+      	si no opcion == "2"
+      		funcionpuerta()
+      	si no si
+      	escribir "opcion no valida"
+		funcionjuego()
+
+funcionmirarventana()
+	Escribir "Miras por la ventana y ves aun montón de soldados durmiendo en unas sillas, en un patio bastante grande. Todos tienen algún tipo de arma. No parecen muy amigables."
+
+	Escribir "1.Llamarles la atención para preguntarles dónde estás"
+	Escribir "2. Callarte para que no se despierten"
+
+	opcion2 <- escribir("Elige una opcion")
+		si opcion == "1":
+			funcionmuerte1()
+		si no opcion == "2":
+			escribir "permaneces callado"
+			funcionjuego()
+		si no si
+			escribir "Opcion invalida"
+			funcionmirarventana()
+
+funcionpuerta():
+	escribir "Logras abrir la puerta forzandola y te encuentras en un pasillo alargado. Hay dos puertas; una al final del pasillo, al norte, y otra al principio, al sur. En medio del pasillo hay un cartel que señala con una flecha hacia el norte.")
+
+	escribir "1. Atravesar la puerta norte")
+	escribir "2. Atravesar la puerta sur")
+
+	opcion3 <- escribir("Elige una opción: ")
+
+	si opcion3 == "1":
+		funcionmuerte2()
+
+	si no opcion3 == "2":
+		funcionganar()
+	si no si:
+		escribir "Opcion invalida"
+		funcionpuerta()
+
+
+funcion muerte1()
+	escribir("Los soldados se despiertan sobresaltados, y al verte, empiezan a gritar en una lengua extraña. Uno de ellos coge un rifle y te dispara.")
+	funcionfin()
+
+funcionmuerte2()
+	escribir"Atraviesas la puerta y te encuentras en un patio lleno de guardias dormidos, que se despiertan y empiezan a gritar en una lengua extraña. Uno de ellos agarra un rifle y te dispara."
+	funcionfin()
+
+funcionganar()
+	escribir"Atraviesas la puerta y te encuentras con un túnel en el que decides meterte. Tras andar durante 15 minutos, empiezas a ver luz al final del túnel. Al salir, te das cuenta de que estás fuera de la torre.")
+	escribir ("¡HAS GANADO!\n")
+	funcionfin()
+funcionfin()
+	escribir('''
+ ____   _____   _    _
+|  __| |__ __| | \  | |
+| |__    | |   |  \ | |
+|  __|   | |   | |\`  |
+| |     _| |_  | | \  |
+|_|    |_____| |_|  \_|
+		''')
+	escribir("Pulsa [ENTER] para volver al menu")
+	funcionmenu()
+
+
+funcionmenu()

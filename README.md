@@ -51,12 +51,9 @@ si la pc y el jugador eligen lo mismo empataran
 cada vez que uno de los dos gane una ronda se le sumara un punto esto asi hasta que uno de los dos gane 3 veces 
 si empatan no se tomara la jugada y si eligen otro numero que no sea del 1 al 3 le saldra un cartel diciendo que debe elegir un numero del 1 al 3
 
-### 4º Juego "Preguntas matematicas"
-El usuario Debersa responder una serie de preguntas matematicas con la finalidad de dar un puntaje como salida
-dichas preguntas iran sumando puntaje para asi llegar a saber cuanto sabes de matematicas
-En este TEST por asi decirlo veremos preguntas de todos los niveles desde preguntas basicas 
-hasta preguntas de nivel universitario.
-
+### 4º Juego "ESCAPA SI PUEDES"
+El usuario debera conforme avanza en el juego ir eligiendo diferentes opciones de historia para asi poder lograr escapar de la prision en la que se encuentra, si este perdio el juego, el mismo puede volver a intentarlo.
+!!!SUERTE!!!
 ___
 
 ### ANALISIS Y DISEÑO
@@ -112,17 +109,24 @@ pc= tipo de dato númerico(entero),elige un numero
 El Pseudocódigo de este juego, esta hecho en el programa Pseint, definiendo todas sus variables,
 explicando cada tipo de dato y con comentarios que ayudan a leer el código de una mejor manera, y con el mismo programa pudimos realizar un diagrama de flujo para una revisió gráfica del mismo Juego.
 
-### 4º Juego "Preguntas matematicas"
+### 4º Juego "ESCAPA SI PUEDES"
+
 *Datos de entrada*
-Respuestas del usuario (Caracter o valores numericos)
- 
-*Proceso* 
-Mediante estucturas condicionales fui desarrollando 
-el cuestionario y con un cumulador fui contanto los puntos
+
+Interracion del usuario
+
+*Proceso*
+
+En este juego utilie una serie de funciones las cuales conforme se desarrolla la historia se van aplicando, primero cree el menu del juego y desde alli comienza el codigo.
 
 *Datos de salida*
-Puntuacion total del test(Valor numerico)
 
+Desarollo de la trama
+
+*Pseudocodigo*
+
+este mismo esta echo en un procesador de texto de codigo llamado "sublime text"
+y en este desarrolle el pseudo codigo a mano sin la necesidad de utilizar pseint.
 ___
 
 ## DOCUMENTACIÓN DE REFERENCIA
@@ -154,5 +158,6 @@ ___
 
 - Unidad 1°: Pensamiento Computacional, Pseudocodigo
 - Unidad 2°: Estructuras selectivas
-- Unidad 3°: Estructuras Repetitivas
 - Python
+- Uso de funciones
+- Importación de librería **OS**

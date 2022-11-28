@@ -1,5 +1,6 @@
 import os
 #MENU SELECCIONADOR DE JUEGOS
+os.system("cls")
 selecionarJuego = 0
 while selecionarJuego != 5:
     print("▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲")
@@ -8,7 +9,7 @@ while selecionarJuego != 5:
     print("1 ▷Adivina el número 🚀")
     print("2 ▷Tablas de multiplicación 🚀")
     print("3 ▷Piedra, paperl o tijera 🚀")
-    print("4 ▷Preguntas Matematicas 🚀")
+    print("4 ▷ESCAPA SI PUEDES 🚀")
     print("5 ▷Salir del programa ❌")
     selecionarJuego = int(input("Ingresa una opción\n..."))
     os.system("cls")
@@ -26,7 +27,7 @@ while selecionarJuego != 5:
         os.system("cls") 
     #ENTRADA PARA EL CUARTO JUEGO
     if selecionarJuego == 4:
-        os.system("python QUIZ.py")
+        os.system("python ESCAPA_SI_PUEDES.py")
         os.system("cls")
     
 #FINALIZACIÓN DEL PROGRAMA
