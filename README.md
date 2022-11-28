@@ -154,7 +154,7 @@ ___
 - Uso de funciones
 - Importación de librería **OS**
 
-### 4º JUEGO "PREGUNTAS MATEMATICAS"
+### 4º JUEGO "ESCAPA SI PUEDES"
 
 - Unidad 1°: Pensamiento Computacional, Pseudocodigo
 - Unidad 2°: Estructuras selectivas
